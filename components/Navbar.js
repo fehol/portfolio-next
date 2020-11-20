@@ -46,6 +46,7 @@ const listStyles = css`
     text-decoration: none;
     color: #e6f1ff;
     &:hover {
+      text-decoration: underline;
       color: #64ffda;
     }
   }
@@ -53,6 +54,8 @@ const listStyles = css`
 
 const image = css`
   cursor: pointer;
+
+  /* height: 100px; */
 `;
 
 export default function Navbar() {
@@ -65,11 +68,6 @@ export default function Navbar() {
         <li css={listStyles}>
           <Link href="/about" passHref>
             <a>About</a>
-          </Link>
-        </li>
-        <li css={listStyles}>
-          <Link href="/experience" passHref>
-            <a>Experience</a>
           </Link>
         </li>
         <li css={listStyles}>

@@ -26,10 +26,6 @@ const socialSidebar = css`
       color: #64ffda;
     }
   }
-  /* div {
-    border-left: 1.5px solid #e6f1ff;
-    height: 500px;
-  } */
 `;
 
 export default function SocialSideBar() {
